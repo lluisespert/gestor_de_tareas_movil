@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct Gestor_de_TareasApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-        }
+        }.modelContainer(for: Tareas.self)
     }
 }

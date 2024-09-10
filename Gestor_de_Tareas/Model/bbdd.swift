@@ -12,7 +12,9 @@ import SwiftData
 
 class Tareas {
     
-    @Attribute(.unique) var id: UUID
+   // @Attribute(.unique) var id: UUID
+    
+    var id = UUID()
     
     var nombre: String
     

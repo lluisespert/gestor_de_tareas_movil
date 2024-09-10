@@ -12,6 +12,7 @@
 		FC70A27C2C901B3900E3D1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC70A27B2C901B3900E3D1D4 /* Assets.xcassets */; };
 		FC70A27F2C901B3900E3D1D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC70A27E2C901B3900E3D1D4 /* Preview Assets.xcassets */; };
 		FC70A2872C901B7E00E3D1D4 /* bbdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70A2862C901B7E00E3D1D4 /* bbdd.swift */; };
+		FC760F572C903239008A3184 /* Vista_Tareas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC760F562C903239008A3184 /* Vista_Tareas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		FC70A27B2C901B3900E3D1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC70A27E2C901B3900E3D1D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC70A2862C901B7E00E3D1D4 /* bbdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bbdd.swift; sourceTree = "<group>"; };
+		FC760F562C903239008A3184 /* Vista_Tareas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vista_Tareas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				FC70A2852C901B5700E3D1D4 /* Model */,
 				FC70A2772C901B3900E3D1D4 /* Gestor_de_TareasApp.swift */,
+				FC760F562C903239008A3184 /* Vista_Tareas.swift */,
 				FC70A2792C901B3900E3D1D4 /* ContentView.swift */,
 				FC70A27B2C901B3900E3D1D4 /* Assets.xcassets */,
 				FC70A27D2C901B3900E3D1D4 /* Preview Content */,
@@ -151,6 +154,7 @@
 				FC70A27A2C901B3900E3D1D4 /* ContentView.swift in Sources */,
 				FC70A2782C901B3900E3D1D4 /* Gestor_de_TareasApp.swift in Sources */,
 				FC70A2872C901B7E00E3D1D4 /* bbdd.swift in Sources */,
+				FC760F572C903239008A3184 /* Vista_Tareas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
