@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1D43CC2C90F9DE003C7498 /* Pepinos_En_Vinagre.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D43CB2C90F9DE003C7498 /* Pepinos_En_Vinagre.swift */; };
 		FC70A2782C901B3900E3D1D4 /* Gestor_de_TareasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70A2772C901B3900E3D1D4 /* Gestor_de_TareasApp.swift */; };
 		FC70A27A2C901B3900E3D1D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70A2792C901B3900E3D1D4 /* ContentView.swift */; };
 		FC70A27C2C901B3900E3D1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC70A27B2C901B3900E3D1D4 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC1D43CB2C90F9DE003C7498 /* Pepinos_En_Vinagre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pepinos_En_Vinagre.swift; sourceTree = "<group>"; };
 		FC70A2742C901B3900E3D1D4 /* Gestor_de_Tareas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestor_de_Tareas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC70A2772C901B3900E3D1D4 /* Gestor_de_TareasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestor_de_TareasApp.swift; sourceTree = "<group>"; };
 		FC70A2792C901B3900E3D1D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				FC70A2772C901B3900E3D1D4 /* Gestor_de_TareasApp.swift */,
 				FC760F562C903239008A3184 /* Vista_Tareas.swift */,
 				FC70A2792C901B3900E3D1D4 /* ContentView.swift */,
+				FC1D43CB2C90F9DE003C7498 /* Pepinos_En_Vinagre.swift */,
 				FC70A27B2C901B3900E3D1D4 /* Assets.xcassets */,
 				FC70A27D2C901B3900E3D1D4 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 				FC70A2782C901B3900E3D1D4 /* Gestor_de_TareasApp.swift in Sources */,
 				FC70A2872C901B7E00E3D1D4 /* bbdd.swift in Sources */,
 				FC760F572C903239008A3184 /* Vista_Tareas.swift in Sources */,
+				FC1D43CC2C90F9DE003C7498 /* Pepinos_En_Vinagre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

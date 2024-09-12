@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import SwiftData
+
 
 struct Vista_Tareas: View {
     
@@ -22,7 +24,8 @@ struct Vista_Tareas: View {
     @State var prioridad = ""
     
     var body: some View {
-        VStack {
+        NavigationStack {
+            
             Form {
                 
                 TextField("Nombre: ", text: $nombre)
@@ -32,6 +35,24 @@ struct Vista_Tareas: View {
                 TextField("Contenido de la tarea: ", text: $contenido)
                 
                 TextField("Prioridad de la tarea: ", text: $prioridad)
+                
+                Button("Guardar"){
+                    
+                    let modelo = Tareas(nombre: nombre, tipo_tarea: tipotarea, contenido_de_tarea: contenido, prioridad_tarea: prioridad)
+                    
+                    context.insert(modelo)
+                   
+                    dismiss()
+                }
+                
+            }
+            .toolbar{
+                
+                Button("Cancelar"){
+                    
+                    dismiss()
+                    
+                }.foregroundStyle(.red)
                 
             }
         }

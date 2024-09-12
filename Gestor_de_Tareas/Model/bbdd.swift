@@ -24,7 +24,7 @@ class Tareas {
     
     var prioridad_tarea: String
     
-    init(id: UUID, nombre: String, tipo_tarea: String, contenido_de_tarea: String, prioridad_tarea: String) {
+    init(id: UUID = UUID(), nombre: String, tipo_tarea: String, contenido_de_tarea: String, prioridad_tarea: String) {
         self.id = id
         self.nombre = nombre
         self.tipo_tarea = tipo_tarea
