@@ -10,7 +10,7 @@ import SwiftData
 
 struct ContentView: View {
     
-    @Environment (\.modelContext) var context
+    @Environment(\.modelContext) var context
     
     @Query(sort:\Tareas.nombre) var tareas:[Tareas]
     

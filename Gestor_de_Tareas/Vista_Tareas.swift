@@ -11,9 +11,9 @@ import SwiftData
 
 struct Vista_Tareas: View {
     
-    @Environment (\.modelContext) var context
+    @Environment(\.modelContext) var context
     
-    @Environment (\.dismiss) var dismiss
+    @Environment(\.dismiss) var dismiss
     
     @State var nombre = ""
     
